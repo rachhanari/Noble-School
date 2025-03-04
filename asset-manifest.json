@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Noble-School/static/css/main.e3085fc6.css",
+    "main.js": "/Noble-School/static/js/main.ad1ed1d6.js",
+    "static/media/god.png": "/Noble-School/static/media/god.ead2ab40153c46e0178c.png",
+    "static/media/stage-img.png": "/Noble-School/static/media/stage-img.4c478fbdc5b22f25c279.png",
+    "static/media/fasidress.png": "/Noble-School/static/media/fasidress.66f9a4e63a06b8646875.png",
+    "static/media/fancedress1.png": "/Noble-School/static/media/fancedress1.ffeb4ca28d2923525c4c.png",
+    "static/media/prayer.png": "/Noble-School/static/media/prayer.de664088d09c1cc7db06.png",
+    "static/media/anual.png": "/Noble-School/static/media/anual.7678c86177fc05e69857.png",
+    "static/media/stage1.png": "/Noble-School/static/media/stage1.a53ceffef1c42f6036bf.png",
+    "static/media/goals.png": "/Noble-School/static/media/goals.fe445436de30bb4939fb.png",
+    "static/media/archivment.png": "/Noble-School/static/media/archivment.361eeb1f289bd0bb87e3.png",
+    "static/media/acting1.png": "/Noble-School/static/media/acting1.69fada51d074d6f7128f.png",
+    "static/media/acting.png": "/Noble-School/static/media/acting.b30b10a48deb5c26ab8a.png",
+    "static/media/back.webp": "/Noble-School/static/media/back.93d3f802b480eeabae07.webp",
+    "static/media/awrapper.webp": "/Noble-School/static/media/awrapper.031ce77a398171427673.webp",
+    "static/media/School-logo.jpeg": "/Noble-School/static/media/School-logo.49f58224a44ae6f20ceb.jpeg",
+    "index.html": "/Noble-School/index.html",
+    "main.e3085fc6.css.map": "/Noble-School/static/css/main.e3085fc6.css.map",
+    "main.ad1ed1d6.js.map": "/Noble-School/static/js/main.ad1ed1d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3085fc6.css",
+    "static/js/main.ad1ed1d6.js"
+  ]
+}
