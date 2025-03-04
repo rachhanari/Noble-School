@@ -4,7 +4,6 @@ import Hblog from "./Hblog";
 import HAbout from "./HAbout";
 import Hero from "./hero/Hero";
 import Testimonal from "./testimonal/Testimonal";
-// import Contact from "../contact/Contact"
 
 const Home = () => {
   return (
@@ -14,7 +13,6 @@ const Home = () => {
       <HAbout />
       <Testimonal />
       <Hblog />
-      {/* <Contact /> */}
     </>
   )
 }
