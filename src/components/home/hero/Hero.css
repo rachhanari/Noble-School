@@ -1,9 +1,11 @@
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Hero Section */
 .hero {
   position: absolute;
   overflow: hidden;
@@ -64,16 +66,31 @@
   }
 }
 
+/* Responsive Hero Section */
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding-top: 30%;
+    height: 90vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;
   }
   .hero {
-    background-position: right;
+    background-position: center;
     padding-top: 50%;
     height: 80vh;
   }
   .hero .row {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    padding-top: 60%;
+    height: 75vh;
   }
 }

@@ -207,3 +207,53 @@ header ul li a:hover {
     background-color: #1eb2a6;
   }
 }
+
+/* Responsive Logo */
+@media screen and (max-width: 1024px) {
+  .logo img {
+    width: 7vw;
+  }
+  .logo h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo img {
+    width: 10vw;
+  }
+  .logo h1 {
+    font-size: 24px;
+  }
+}
+
+/* Responsive Social Icons */
+@media screen and (max-width: 768px) {
+  .social i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+/* Responsive Start Button */
+@media screen and (max-width: 1024px) {
+  .start {
+    padding: 20px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .start {
+    padding: 15px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .toggle {
+    top: 10px;
+  }
+  .mobile-nav {
+    top: 8vh;
+  }
+}
