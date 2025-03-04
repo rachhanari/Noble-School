@@ -19,19 +19,20 @@
   color: #fff;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   animation: bgChange 13s infinite linear, zoomEffect 10s infinite alternate;
   transition: background-image 1.5s ease-in-out;
 }
 
 @keyframes bgChange {
   0%, 100% {
-    background-image: url("../../Assets/school-img/god.png");
+    background-image: url("../Assets/school-img/god.png");
   }
   33% {
-    background-image: url("../../Assets/school-img/archivment.png");
+    background-image: url("../Assets/school-img/archivment.png");
   }
   66% {
-    background-image: url("../../Assets/school-img/fancedress1.png");
+    background-image: url("../Assets/school-img/fancedress1.png");
   }
 }
 
@@ -44,15 +45,15 @@
   }
 }
 
+.hero #heading {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 .hero #heading h3 {
   color: #fff;
   animation: fadeIn 2s ease-in-out;
-}
-
-.hero #heading {
-  text-align: left;
-  margin: 0;
-  padding: 0;
 }
 
 @keyframes fadeIn {
@@ -69,36 +70,30 @@
 /* Responsive Hero Section */
 @media screen and (max-width: 1024px) {
   .hero {
-    padding-top: 30%;
+    padding-top: 25%;
     height: 90vh;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .margin {
-    height: 40vh;
-  }
   .hero {
     background-position: center;
-    padding-top: 50%;
+    padding-top: 40%;
     height: 80vh;
-  }
-  .hero .row {
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .hero {
-    padding-top: 60%;
-    height: 75vh;
+    padding-top: 50%;
+    height: 70vh;
   }
 }
 
 /* Gallery Section */
 .gallery {
   text-align: center;
-  padding: 100px 20px;
+  padding: 80px 5%;
 }
 
 .subtitle {
@@ -112,6 +107,18 @@
   padding: 35px;
   text-align: center;
   font-size: 1.5vw;
+  animation: fadeInUp 2s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .grid {
@@ -127,13 +134,15 @@
   overflow: hidden;
   border-radius: 15px;
   transition: transform 0.3s ease-in-out;
+  position: relative;
+  height: 100%;
 }
 
 .image-container img {
   cursor: pointer;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Ensures the image maintains the same height and width */
   transition: transform 0.4s ease;
 }
 
@@ -165,91 +174,5 @@
   }
   .titles {
     font-size: 4vw;
-  }
-}
-
-/* About Section */
-.aboutHome {
-  height: auto;
-}
-.aboutHome #heading {
-  text-align: left;
-  padding: 0;
-}
-.aboutHome .left img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  padding: 50px;
-}
-.aboutHome .right {
-  padding: 80px 50px;
-}
-.aboutHome .items {
-  margin-top: 50px;
-}
-.aboutHome .item {
-  background-color: #fff;
-  margin-top: 30px;
-  padding: 20px;
-  transition: 0.5s;
-}
-.aboutHome .img {
-  width: 200px;
-}
-.aboutHome img {
-  width: 70px;
-  height: 70px;
-}
-.aboutHome .item h2 {
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-.aboutHome .item p {
-  color: #999999;
-}
-.aboutHome .item:hover {
-  background-color: #1eb2a6;
-  color: #fff;
-  cursor: pointer;
-  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
-}
-.aboutHome .item:hover p {
-  color: #fff;
-}
-
-/* AWrapper */
-.awrapper {
-  background-image: url("../../../public/images/awrapper.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 30vh;
-  color: #fff;
-}
-.awrapper .box {
-  padding: 70px 0;
-}
-.awrapper img {
-  margin-right: 30px;
-}
-.awrapper h1 {
-  font-size: 50px;
-}
-.awrapper h3 {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-/* Responsive About Section */
-@media screen and (max-width: 768px) {
-  .aboutHome .container {
-    flex-direction: column-reverse;
-  }
-  .aboutHome .row {
-    width: 100%;
-  }
-  .awrapper {
-    height: 50vh;
   }
 }

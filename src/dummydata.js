@@ -124,11 +124,22 @@ export const blog = [
 ]
 
 export const testimonal = [
+    {
+    cover: "path/to/image1.jpg",
+    name: "John Doe",
+    post: "Software Engineer",
+    desc: "This school has provided me with the skills and knowledge to excel in my career. The professors are dedicated, and the environment is very supportive."
+  },
   {
-    id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    cover: "path/to/image2.jpg",
+    name: "Jane Smith",
+    post: "Data Scientist",
+    desc: "I gained a lot of practical experience that has helped me land my dream job. The resources available at this school are unparalleled."
+  },
+  {
+    cover: "path/to/image3.jpg",
+    name: "Alice Johnson",
+    post: "Project Manager",
+    desc: "The curriculum was challenging and thorough, preparing me for real-world challenges in my profession. The best decision I ever made!"
   },
 ]
