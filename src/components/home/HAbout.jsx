@@ -10,7 +10,6 @@ import stageImg from "../Assets/school-img/stage-img.png";
 import prayer from "../Assets/school-img/prayer.png";
 import fasidress from "../Assets/school-img/fasidress.png";
 import anual from "../Assets/school-img/anual.png";
-// import Contact from "../contact/Contact";
 
 const images = [acting, acting1, stage1, goals, stageImg, prayer, fasidress, anual];
 
@@ -30,7 +29,6 @@ const HAbout = () => {
         ))}
       </div>
     </section>
-    {/* <Contact /> */}
     </>
   );
 };
