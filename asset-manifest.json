@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Noble-School/static/css/main.e3085fc6.css",
-    "main.js": "/Noble-School/static/js/main.ad1ed1d6.js",
+    "main.css": "/Noble-School/static/css/main.d6d3ac28.css",
+    "main.js": "/Noble-School/static/js/main.b9a13eb2.js",
     "static/media/god.png": "/Noble-School/static/media/god.ead2ab40153c46e0178c.png",
     "static/media/stage-img.png": "/Noble-School/static/media/stage-img.4c478fbdc5b22f25c279.png",
     "static/media/fasidress.png": "/Noble-School/static/media/fasidress.66f9a4e63a06b8646875.png",
@@ -17,11 +17,11 @@
     "static/media/awrapper.webp": "/Noble-School/static/media/awrapper.031ce77a398171427673.webp",
     "static/media/School-logo.jpeg": "/Noble-School/static/media/School-logo.49f58224a44ae6f20ceb.jpeg",
     "index.html": "/Noble-School/index.html",
-    "main.e3085fc6.css.map": "/Noble-School/static/css/main.e3085fc6.css.map",
-    "main.ad1ed1d6.js.map": "/Noble-School/static/js/main.ad1ed1d6.js.map"
+    "main.d6d3ac28.css.map": "/Noble-School/static/css/main.d6d3ac28.css.map",
+    "main.b9a13eb2.js.map": "/Noble-School/static/js/main.b9a13eb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3085fc6.css",
-    "static/js/main.ad1ed1d6.js"
+    "static/css/main.d6d3ac28.css",
+    "static/js/main.b9a13eb2.js"
   ]
 }
