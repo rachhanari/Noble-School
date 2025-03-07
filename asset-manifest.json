@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Noble-School/static/css/main.12c8d513.css",
+    "main.css": "/Noble-School/static/css/main.96c44103.css",
     "main.js": "/Noble-School/static/js/main.2fc2c377.js",
     "static/media/god.png": "/Noble-School/static/media/god.ead2ab40153c46e0178c.png",
     "static/media/stage-img.png": "/Noble-School/static/media/stage-img.4c478fbdc5b22f25c279.png",
@@ -17,11 +17,11 @@
     "static/media/awrapper.webp": "/Noble-School/static/media/awrapper.031ce77a398171427673.webp",
     "static/media/School-logo.jpeg": "/Noble-School/static/media/School-logo.49f58224a44ae6f20ceb.jpeg",
     "index.html": "/Noble-School/index.html",
-    "main.12c8d513.css.map": "/Noble-School/static/css/main.12c8d513.css.map",
+    "main.96c44103.css.map": "/Noble-School/static/css/main.96c44103.css.map",
     "main.2fc2c377.js.map": "/Noble-School/static/js/main.2fc2c377.js.map"
   },
   "entrypoints": [
-    "static/css/main.12c8d513.css",
+    "static/css/main.96c44103.css",
     "static/js/main.2fc2c377.js"
   ]
 }
